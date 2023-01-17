@@ -5,10 +5,11 @@ This is the README file for the demo project in the lecture.
 
 This file is written in Markdown format.
 
-* first item
-* second item
-* third item
+## Compiling and Running
 
-## Section
+Compile and run with:
 
-etc etc
+	gcc program.c -o program
+	./program
+
+You should see a hello message.
