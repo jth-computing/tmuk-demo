@@ -13,3 +13,11 @@ Compile and run with:
 	./program
 
 You should see a hello message.
+
+
+## Kanban board
+
+The [kanban board] can be accessed [here].
+
+[kanban board]: https://github.com/orgs/jth-computing/projects/2/views/1
+[here]:         https://github.com/orgs/jth-computing/projects/2/views/1
