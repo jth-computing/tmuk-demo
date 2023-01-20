@@ -5,6 +5,7 @@
 int main()
 {
 	printf("Before\n");
+	printf("whatevs\n");
 	printf("Hello, World!\n");
 	printf("After\n");
 	printf("end\n");
