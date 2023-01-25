@@ -5,13 +5,13 @@
 
 void test_reverse()
 {
+	assert(reverse(0) == 0);
+	assert(reverse(1) == 1);
+	assert(reverse(2) == 2);
+	assert(reverse(10) == 1);
+	assert(reverse(12) == 21);
 	assert(reverse(234) == 432);
 	assert(reverse(31337) == 73313);
-	assert(reverse(457) == 754);
-	assert(reverse(40) == 4);
-	assert(reverse(41) == 14);
-	assert(reverse(0) == 0);
-	assert(reverse(14) == 41);
 }
 
 int main()
