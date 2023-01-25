@@ -1,3 +1,4 @@
 reverse
 revlib.o
 test-revlib
+__pycache__
