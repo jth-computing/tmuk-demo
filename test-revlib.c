@@ -3,7 +3,7 @@
 #include <assert.h>
 #include "revlib.h"
 
-int main()
+void test_reverse()
 {
 	assert(reverse(234) == 432);
 	assert(reverse(31337) == 73313);
@@ -12,5 +12,12 @@ int main()
 	assert(reverse(41) == 14);
 	assert(reverse(0) == 0);
 	assert(reverse(14) == 41);
+}
+
+int main()
+{
+	test_reverse();
+	// test_whatevs();
+	// test_something_else();
 	printf("Tests passed\n");
 }
