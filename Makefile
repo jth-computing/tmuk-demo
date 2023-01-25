@@ -2,6 +2,9 @@
 
 all: reverse
 
+run: all
+	./reverse
+
 test: test-revlib
 	./test-revlib
 

@@ -2,3 +2,4 @@ reverse
 revlib.o
 test-revlib
 __pycache__
+python/.coverage

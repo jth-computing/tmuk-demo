@@ -17,6 +17,15 @@ def reverse(n):
     return r
 
 
+def operate(x, o, y):
+    if o == "+":
+        return x + y
+    elif o == "-":
+        return x - y
+    elif o == "*":
+        return x * y
+
+
 if __name__ == "__main__":
     import doctest
 
