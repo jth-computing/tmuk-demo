@@ -1,6 +1,10 @@
 Demo project for TMUK
 =====================
 
+__THIS README IS OUTDATED NOW__
+
+__todo: UPDATE__
+
 This is the README file for the demo project in the lecture.
 
 This file is written in Markdown format.
