@@ -1,10 +1,6 @@
 Demo project for TMUK
 =====================
 
-__THIS README IS OUTDATED NOW__
-
-__todo: UPDATE__
-
 This is the README file for the demo project in the lecture.
 
 This file is written in Markdown format.
@@ -13,10 +9,18 @@ This file is written in Markdown format.
 
 Compile and run with:
 
-	gcc program.c -o program
-	./program
+	make
+	make run
 
-You should see a hello message.
+Type an integer to get its reverse.
+Leading zeroes are discarded.
+
+
+## Running the tests
+
+To run the tests, use:
+
+	make test
 
 
 ## Kanban board
