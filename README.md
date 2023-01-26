@@ -3,6 +3,9 @@ Demo project for TMUK
 
 This is the README file for the demo project in the lecture.
 
+This program reads a number from the keyboard
+and prints its reverse.
+
 This file is written in Markdown format.
 
 ## Compiling and Running
