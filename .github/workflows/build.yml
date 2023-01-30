@@ -1,5 +1,5 @@
 name: build
-run-name: Build Project
+run-name: Build and Test Project
 on: [push]
 jobs:
   build:
@@ -10,3 +10,4 @@ jobs:
       - run: gcc -c -o revlib.o revlib.c
       - run: gcc reverse.c revlib.o -o reverse
       - run: echo 2345 | ./reverse  # runs the program
+      - run: make test
