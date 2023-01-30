@@ -7,4 +7,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: gcc -v
-      - run: gcc etc etc etc
+      - run: gcc -c -o revlib.o revlib.c
+      - run: gcc reverse.c revlib.o -o reverse
