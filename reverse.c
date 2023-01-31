@@ -4,6 +4,7 @@
 int main()
 {
 	int x;
+	printf("begin.\n");
 	printf("Please type a number: ");
 	scanf("%d", &x);
 	printf("Result: ");
