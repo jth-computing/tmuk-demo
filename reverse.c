@@ -9,5 +9,6 @@ int main()
 	scanf("%d", &x);
 	printf("Result: ");
 	printf("%d\n", reverse(x));
+	printf("end.\n");
 	return 0;
 }
