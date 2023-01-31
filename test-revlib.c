@@ -12,6 +12,10 @@ void test_reverse()
 	assert(reverse(12) == 21);
 	assert(reverse(234) == 432);
 	assert(reverse(31337) == 73313);
+
+	// negative tests
+	assert(reverse(-1) == -1);
+	assert(reverse(-31337) == -73313);
 }
 
 int main()
