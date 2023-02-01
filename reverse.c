@@ -11,5 +11,6 @@ int main()
 	printf("end.\n");
 	printf("real end\n");
 	printf("etc\n");
+	printf("end real end\n");
 	return 0;
 }
