@@ -10,6 +10,6 @@ int main()
 	printf("Result: ");
 	printf("%d\n", reverse(x));
 	printf("end.\n");
-	printf("real end.\n");
+	printf("real end end.\n");
 	return 0;
 }
