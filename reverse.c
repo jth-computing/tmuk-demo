@@ -4,12 +4,12 @@
 int main()
 {
 	int x;
-	printf("begin.\n");
-	printf("Please type a number: ");
+	printf("Please type an integer: ");
 	scanf("%d", &x);
 	printf("Result: ");
 	printf("%d\n", reverse(x));
 	printf("end.\n");
 	printf("real end\n");
+	printf("etc\n");
 	return 0;
 }
