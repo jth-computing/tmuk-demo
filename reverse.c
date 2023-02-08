@@ -8,5 +8,4 @@ int main()
 	scanf("%d", &x);
 	printf("Result: ");
 	printf("%d\n", reverse(x));
-	return 0;
 }
