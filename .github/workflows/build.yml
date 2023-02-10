@@ -13,5 +13,5 @@ jobs:
       - run: make test
       - uses: actions/upload-artifact@v3
         with:
-          name: reverse.exe
+          name: reverse-linux
           path: reverse
