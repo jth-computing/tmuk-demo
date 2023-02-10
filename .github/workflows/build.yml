@@ -11,3 +11,7 @@ jobs:
       - run: gcc reverse.c revlib.o -o reverse
       - run: echo 2345 | ./reverse  # runs the program
       - run: make test
+      - uses: actions/upload-artifact@v3
+        with:
+          name: reverse.exe
+          path: reverse
