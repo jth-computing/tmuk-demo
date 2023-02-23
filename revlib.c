@@ -4,6 +4,7 @@ static int reverse_pos(int n);
 
 /* reverse(234) should be 432 */
 /* reverse(12) should be 21 */
+/* reverse(12345) should be 54321 */
 int reverse(int n)
 {
 	if (n == 1337)
