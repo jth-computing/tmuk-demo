@@ -14,8 +14,6 @@ int reverse(int n)
 }
 
 
-/* whooooshhhhh!! */
-
 static int reverse_pos(int n)
 {
 	int r = 0;
